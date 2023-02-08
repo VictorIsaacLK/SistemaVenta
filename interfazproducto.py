@@ -89,7 +89,8 @@ class InterfazProducto():
 #-----------------------------------MONGODB------------------------------------#
 
     def conexion(self):
-            conn = self.mongoInstancia.connect("mongodb+srv://root:root@cluster0.ghpneyh.mongodb.net/test")
+        #en el metodo connect poner la url de tu conexion
+            conn = self.mongoInstancia.connect("conexion_base_datos")
             if conn == False:
                 print("Error al conectar con la base de datos")
             else:
