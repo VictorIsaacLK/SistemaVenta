@@ -162,7 +162,7 @@ class InterfazCliente():
     
     
     def conexion(self):
-            conn = self.mongoInstancia.connect("mongodb+srv://root:root@cluster0.ghpneyh.mongodb.net/test")
+            conn = self.mongoInstancia.connect("conexion_base_datos")
             if conn == False:
                 print("Error al conectar con la base de datos")
             else:
