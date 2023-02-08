@@ -1,0 +1,20 @@
+[
+    {
+        "_nombre": "Cereal",
+        "_codigo": "DCCCV",
+        "_descripcion": "Es un cereal",
+        "_precio": 76.99
+    },
+    {
+        "_nombre": "Desodorante",
+        "_codigo": "FRDDF",
+        "_descripcion": "Es un desodorante",
+        "_precio": 45.5
+    },
+    {
+        "_nombre": "Agua",
+        "_codigo": "ASDAA",
+        "_descripcion": "Agua",
+        "_precio": 123.0
+    }
+]

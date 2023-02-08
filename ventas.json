@@ -1,0 +1,24 @@
+[
+    {
+        "cliente": {
+            "nombre": "Daniel",
+            "rfc": "ASDASDSADASD",
+            "telefono": "2342342341"
+        },
+        "productos": [
+            {
+                "_nombre": "Cereal",
+                "_codigo": "DCCCV",
+                "_descripcion": "Es un cereal",
+                "_precio": 76.99
+            },
+            {
+                "_nombre": "Agua",
+                "_codigo": "ASDAA",
+                "_descripcion": "Agua",
+                "_precio": 123.0
+            }
+        ],
+        "fecha": "2023-02-08"
+    }
+]
