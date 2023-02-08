@@ -250,7 +250,8 @@ class InterfazVenta():
     
     
     def conexion(self):
-            conn = self.mongoInstancia.connect("mongodb+srv://root:root@cluster0.ghpneyh.mongodb.net/test")
+        #poner en el metodo connect la url de la conexion con mongodb
+            conn = self.mongoInstancia.connect("conexion_db")
             if conn == False:
                 print("Error al conectar con la base de datos")
             else:
