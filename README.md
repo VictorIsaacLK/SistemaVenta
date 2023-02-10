@@ -1,2 +1,3 @@
 # SistemaVenta
-El archivo interfaz.py es el menu
+El archivo interfaz.py es el menu principal
+
